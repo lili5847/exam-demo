@@ -1,0 +1,5 @@
+# Ignore node_modules folder (Windows binaries)
+node_modules
+
+# Ignore package-lock.json (so Vercel installs fresh packages)
+package-lock.json
