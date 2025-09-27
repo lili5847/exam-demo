@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./src/index.css --minify",
+    "build:css": "node_modules/.bin/tailwindcss -i ./src/input.css -o ./src/index.css --minify",
     "dev": "vite",
     "build": "npm run build:css && vite build",
     "preview": "vite preview",
